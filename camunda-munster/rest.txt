@@ -1,0 +1,14 @@
+https://docs.camunda.org/rest/camunda-bpm-platform/7.20/
+
+Deployment:
+http://localhost:8080/engine-rest/deployment/create
+
+Start process:
+localhost:8080/engine-rest/process-definition/key/WatchMunster/start
+
+Get task:
+localhost:8080/engine-rest/task?processDefinitionKey=WatchMunster
+
+Complete task:
+localhost:8080/engine-rest/task/d068dc52-f98a-11ee-96ba-3ae0e40218b1/complete
+
